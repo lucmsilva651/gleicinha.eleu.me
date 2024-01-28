@@ -1,0 +1,16 @@
+body {
+    padding: 25px;
+    font-family: "Urbanist", sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+button {
+    width: 65px;
+    height: 65px;
+    background-color: #ffffff;
+    border: solid 1px #87AADE;
+    cursor: pointer;
+}
