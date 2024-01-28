@@ -14,3 +14,11 @@ button {
     border: solid 1px #87AADE;
     cursor: pointer;
 }
+
+hr {
+    border-color: #000000;
+}
+
+a {
+    color: #000000;
+}
