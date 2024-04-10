@@ -8,17 +8,71 @@ body {
 }
 
 button {
-    width: 65px;
-    height: 65px;
-    background-color: #ffffff;
-    border: solid 1px #87AADE;
+    width: var(--btnwidth);
+    height: var(--btnheight);
+    background-color: var(--color6);
+    border: solid 1px var(--color5);
     cursor: pointer;
 }
 
 hr {
-    border-color: #000000;
+    border-color: var(--color4);
 }
 
 a {
-    color: #000000;
+    color: var(--color4);
+}
+
+/* declaring variables */
+/* for easier modification */
+
+:root {
+   --color1: #731d3c;
+   --color2: #7a7a7a;
+   --color3: #474747;
+   --color4: #000000;
+   --color5: #87aade;
+   --color6: #ffffff;
+   --btnwidth: 65px;
+   --btnheight: 65px;
+   --p1: xx-small;
+   --p2: small;
+   --hr1: 50px;
+   --hr2: 250px;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+}
+
+/* using the variables */
+/* in practice */
+
+.hr1 {
+    width: var(--hr1);
+}
+
+.hr2 {
+    width: var(--hr2);
+}
+
+.p1 {
+    font-size: var(--p1);
+}
+
+.p2 {
+    font-size: var(--p2);
+}
+
+.color1 {
+    color: var(--color1)
+}
+
+.color2 {
+    color: var(--color2);
+}
+
+.color3 {
+    color: var(--color3);
 }
