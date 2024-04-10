@@ -1,8 +1,24 @@
+:root {
+    --color1: #731d3c;
+    --color2: #7a7a7a;
+    --color3: #474747;
+    --color4: #000000;
+    --color5: #87aade;
+    --color6: #ffffff;
+    --btnwidth: 65px;
+    --btnheight: 65px;
+    --p1: xx-small;
+    --p2: small;
+    --hr1: 50px;
+    --hr2: 250px;
+    --font: "Urbanist", sans-serif;
+}
+
 body {
     padding: 25px;
-    font-family: "Urbanist", sans-serif;
-    background-color: #ffffff;
-    color: #000000;
+    font-family: var(--font);
+    background-color: var(--color6);
+    color: var(--color4);
     letter-spacing: 3px;
     font-weight: bold;
 }
@@ -23,31 +39,12 @@ a {
     color: var(--color4);
 }
 
-/* declaring variables */
-/* for easier modification */
-
-:root {
-   --color1: #731d3c;
-   --color2: #7a7a7a;
-   --color3: #474747;
-   --color4: #000000;
-   --color5: #87aade;
-   --color6: #ffffff;
-   --btnwidth: 65px;
-   --btnheight: 65px;
-   --p1: xx-small;
-   --p2: small;
-   --hr1: 50px;
-   --hr2: 250px;
-}
+/* div below*/
 
 .center {
     text-align: center;
     align-items: center;
 }
-
-/* using the variables */
-/* in practice */
 
 .hr1 {
     width: var(--hr1);
@@ -66,7 +63,7 @@ a {
 }
 
 .color1 {
-    color: var(--color1)
+    color: var(--color1);
 }
 
 .color2 {
