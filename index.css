@@ -1,57 +1,57 @@
 :root {
-    --color1: #731d3c;
-    --color2: #7a7a7a;
-    --color3: #474747;
-    --color4: #000000;
-    --color5: #87aade;
-    --color6: #ffffff;
-    --btnwidth: 65px;
-    --btnheight: 65px;
+    --pagefont: "DM Sans", sans-serif;
+    --linkcolor: #a192dd;
+    --backgroundcolor: #24242E;
+    --fontawesomecolor: #ffffff;
+    --fontcolor: #b6b6b6;
+    --descriptioncolor: #ffffff;
+    --buttoncolor: #4f4f57;
+    --bordercolor: #ffffff;
+    --buttonwidth: 50px;
+    --buttonheight: 50px;
     --p1: xx-small;
     --p2: small;
-    --hr1: 50px;
-    --hr2: 250px;
-    --font: "Urbanist", sans-serif;
 }
 
 body {
     padding: 25px;
-    font-family: var(--font);
-    background-color: var(--color6);
-    color: var(--color4);
-    letter-spacing: 3px;
-    font-weight: bold;
+    font-family: var(--pagefont);
+    background-color: var(--backgroundcolor);
+    color: var(--fontcolor);
 }
 
 button {
-    width: var(--btnwidth);
-    height: var(--btnheight);
-    background-color: var(--color6);
-    border: solid 1px var(--color5);
+    width: var(--buttonwidth);
+    height: var(--buttonheight);
+    background-color: var(--buttoncolor);
+    border: solid 1px var(--bordercolor);
     cursor: pointer;
+    margin-bottom: 15px;
+    border-radius: 5px;
 }
 
 hr {
-    border-color: var(--color4);
+    border-color: var(--bordercolor);
+    width: 250px;
 }
 
 a {
-    color: var(--color4);
+    color: var(--linkcolor);
 }
 
-/* div below*/
+i {
+    color: var(--fontawesomecolor);
+    padding-left: 3px;
+    padding-right: 5px;
+}
+
+.ifont {
+    font-family: var(--pagefont);
+}
 
 .center {
     text-align: center;
     align-items: center;
-}
-
-.hr1 {
-    width: var(--hr1);
-}
-
-.hr2 {
-    width: var(--hr2);
 }
 
 .p1 {
@@ -62,14 +62,10 @@ a {
     font-size: var(--p2);
 }
 
-.color1 {
-    color: var(--color1);
+.fbold {    
+    font-weight: bold;
 }
 
-.color2 {
-    color: var(--color2);
-}
-
-.color3 {
-    color: var(--color3);
+.desc {
+    color: var(--descriptioncolor);
 }
